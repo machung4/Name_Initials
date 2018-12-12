@@ -1,8 +1,11 @@
 PImage img;
 PImage img2;
+
 size(500,500);
-img2 = loadImage("https://pre00.deviantart.net/8538/th/pre/i/2015/100/1/d/smash_striker__greninja_by_tails1000-d8p8tlm.png");
-img = loadImage("https://thumbor.forbes.com/thumbor/1280x868/https%3A%2F%2Fblogs-images.forbes.com%2Ftrevornace%2Ffiles%2F2017%2F12%2Flightning-storm-australia.jpg");
+String url = "https://pre00.deviantart.net/8538/th/pre/i/2015/100/1/d/smash_striker__greninja_by_tails1000-d8p8tlm.png";
+String url2= "https://thumbor.forbes.com/thumbor/1280x868/https%3A%2F%2Fblogs-images.forbes.com%2Ftrevornace%2Ffiles%2F2017%2F12%2Flightning-storm-australia.jpg";
+img2 = loadImage(url,"png");
+img = loadImage(url2,"png");
 image(img,0,0,500,500);
 noFill();
 strokeWeight(50);
